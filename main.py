@@ -25,8 +25,10 @@ async def search_words(item: Search):
     print(item.name)
     searchkey = item.name
 
-    app_id = "61b0914c"
-    app_key = "c3025a6a93bb6fbdad52a5bc489e04eb"
+    app_id = "your app id"
+    app_key = "Your app key"
+    # get from Oxford English Dictionary API web
+    
     endpoint = "entries"
     language_code = "en-us"
     word_id = searchkey
